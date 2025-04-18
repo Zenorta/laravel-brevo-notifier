@@ -1,10 +1,10 @@
 <p align="center"><img src="./art/logo.svg" alt="Laravel Brevo Notifier Package Logo"></p>
 
 <p align="center">
-<a href="https://github.com/yieldstudio/laravel-brevo-notifier/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/yieldstudio/laravel-brevo-notifier/tests.yml?branch=main&style=flat-square" alt="Build Status"></a>
-<a href="https://github.com/yieldstudio/laravel-brevo-notifier/releases"><img src="https://img.shields.io/github/release/yieldstudio/laravel-brevo-notifier?style=flat-square" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/yieldstudio/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/dt/yieldstudio/laravel-brevo-notifier?style=flat-square" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/yieldstudio/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/l/yieldstudio/laravel-brevo-notifier" alt="License"></a>
+<a href="https://github.com/Zenorta/laravel-brevo-notifier/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/Zenorta/laravel-brevo-notifier/tests.yml?branch=main&style=flat-square" alt="Build Status"></a>
+<a href="https://github.com/Zenorta/laravel-brevo-notifier/releases"><img src="https://img.shields.io/github/release/Zenorta/laravel-brevo-notifier?style=flat-square" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/Zenorta/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/dt/Zenorta/laravel-brevo-notifier?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/Zenorta/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/l/Zenorta/laravel-brevo-notifier" alt="License"></a>
 </p>
 
 Easily send Brevo transactional email and sms with Laravel.
@@ -14,7 +14,7 @@ Easily send Brevo transactional email and sms with Laravel.
 You can install the package via composer:
 
 ```bash
-composer require yieldstudio/laravel-brevo-notifier
+composer require Zenorta/laravel-brevo-notifier
 ```
 
 ## Configure
@@ -35,7 +35,7 @@ Make sure that `MAIL_FROM_ADDRESS` is an authenticated email on Brevo. You can v
 You can publish the configuration file with:
 
 ```shell
-php artisan vendor:publish --provider="YieldStudio\LaravelBrevoNotifier\BrevoNotifierServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Zenorta\LaravelBrevoNotifier\BrevoNotifierServiceProvider" --tag="config"
 ```
 
 ## Usage
@@ -50,8 +50,8 @@ Now you can use the channel in your via() method inside the notification:
 namespace App\Notifications;
 
 use Illuminate\Notifications\Notification;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailChannel;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailMessage;
+use Zenorta\LaravelBrevoNotifier\BrevoEmailChannel;
+use Zenorta\LaravelBrevoNotifier\BrevoEmailMessage;
 
 class OrderConfirmation extends Notification
 {
@@ -78,8 +78,8 @@ class OrderConfirmation extends Notification
 namespace App\Notifications;
 
 use Illuminate\Notifications\Notification;
-use YieldStudio\LaravelBrevoNotifier\BrevoSmsChannel;
-use YieldStudio\LaravelBrevoNotifier\BrevoSmsMessage;
+use Zenorta\LaravelBrevoNotifier\BrevoSmsChannel;
+use Zenorta\LaravelBrevoNotifier\BrevoSmsMessage;
 
 class OrderConfirmation extends Notification
 {
@@ -104,10 +104,9 @@ To run the tests, just run `composer install` and `composer test`.
 
 ## Contact us
 
-[<img src="https://github.com/YieldStudio/.github/blob/main/assets/banner.png" width="419px" />](https://www.yieldstudio.fr/contact)
+[<img src="https://github.com/Zenorta/.github/blob/main/assets/banner.png" width="419px" />](https://www.Zenorta.fr/contact)
 
-Our team at Yield Studio is ready to welcome you and make every interaction an exceptional experience. You can [contact us](https://www.yieldstudio.fr/contact).
-
+Our team at Yield Studio is ready to welcome you and make every interaction an exceptional experience. You can [contact us](https://www.Zenorta.fr/contact).
 
 ## Changelog
 
@@ -115,11 +114,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://raw.githubusercontent.com/YieldStudio/.github/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://raw.githubusercontent.com/Zenorta/.github/main/CONTRIBUTING.md) for details.
 
 ### Security
 
-If you've found a bug regarding security please mail [contact@yieldstudio.fr](mailto:contact@yieldstudio.fr) instead of using the issue tracker.
+If you've found a bug regarding security please mail [contact@Zenorta.fr](mailto:contact@Zenorta.fr) instead of using the issue tracker.
 
 ## Credits
 

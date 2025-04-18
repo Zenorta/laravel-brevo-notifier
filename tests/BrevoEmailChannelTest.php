@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 use Illuminate\Notifications\Notification;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailChannel;
-use YieldStudio\LaravelBrevoNotifier\BrevoEmailMessage;
-use YieldStudio\LaravelBrevoNotifier\BrevoService;
-use YieldStudio\LaravelBrevoNotifier\Tests\User;
+use Zenorta\LaravelBrevoNotifier\BrevoEmailChannel;
+use Zenorta\LaravelBrevoNotifier\BrevoEmailMessage;
+use Zenorta\LaravelBrevoNotifier\BrevoService;
+use Zenorta\LaravelBrevoNotifier\Tests\User;
 
 it('send notification via BrevoEmailChannel should call BrevoService sendEmail method', function () {
     $mock = $this->mock(BrevoService::class)->shouldReceive('sendEmail')->once();

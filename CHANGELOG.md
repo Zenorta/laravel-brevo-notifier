@@ -8,27 +8,27 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ### What's Changed
 
-* laravel 12 and php 8.4 by @mckenziearts in https://github.com/YieldStudio/laravel-brevo-notifier/pull/7
+- laravel 12 and php 8.4 by @mckenziearts in https://github.com/Zenorta/laravel-brevo-notifier/pull/7
 
-**Full Changelog**: https://github.com/YieldStudio/laravel-brevo-notifier/compare/1.0.1...1.0.2
+**Full Changelog**: https://github.com/Zenorta/laravel-brevo-notifier/compare/1.0.1...1.0.2
 
 ## 1.0.1 - 2024-07-22
 
 ### What's Changed
 
-* Add support for Laravel 11 by @mckenziearts in https://github.com/YieldStudio/laravel-brevo-notifier/pull/2
+- Add support for Laravel 11 by @mckenziearts in https://github.com/Zenorta/laravel-brevo-notifier/pull/2
 
 ### New Contributors
 
-* @mckenziearts made their first contribution in https://github.com/YieldStudio/laravel-brevo-notifier/pull/2
+- @mckenziearts made their first contribution in https://github.com/Zenorta/laravel-brevo-notifier/pull/2
 
-**Full Changelog**: https://github.com/YieldStudio/laravel-brevo-notifier/compare/1.0.0...1.0.1
+**Full Changelog**: https://github.com/Zenorta/laravel-brevo-notifier/compare/1.0.0...1.0.1
 
 ## 1.0.0 - 2024-01-24
 
-**Full Changelog**: https://github.com/YieldStudio/laravel-brevo-notifier/commits/1.0.0
+**Full Changelog**: https://github.com/Zenorta/laravel-brevo-notifier/commits/1.0.0
 
 **First release ⚡️**
 
-Replacement for [laravel-sendinblue-notifier](https://github.com/YieldStudio/laravel-sendinblue-notifier)
+Replacement for [laravel-sendinblue-notifier](https://github.com/Zenorta/laravel-sendinblue-notifier)
 Email & SMS support

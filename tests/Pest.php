@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-use YieldStudio\LaravelBrevoNotifier\Tests\TestCase;
+use Zenorta\LaravelBrevoNotifier\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

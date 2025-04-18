@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YieldStudio\LaravelBrevoNotifier\Tests;
+namespace Zenorta\LaravelBrevoNotifier\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use YieldStudio\LaravelBrevoNotifier\BrevoNotifierServiceProvider;
+use Zenorta\LaravelBrevoNotifier\BrevoNotifierServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
