@@ -1,10 +1,10 @@
 <p align="center"><img src="./art/logo.svg" alt="Laravel Brevo Notifier Package Logo"></p>
 
 <p align="center">
-<a href="https://github.com/Zenorta/laravel-brevo-notifier/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/Zenorta/laravel-brevo-notifier/tests.yml?branch=main&style=flat-square" alt="Build Status"></a>
-<a href="https://github.com/Zenorta/laravel-brevo-notifier/releases"><img src="https://img.shields.io/github/release/Zenorta/laravel-brevo-notifier?style=flat-square" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/Zenorta/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/dt/Zenorta/laravel-brevo-notifier?style=flat-square" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/Zenorta/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/l/Zenorta/laravel-brevo-notifier" alt="License"></a>
+<a href="https://github.com/YieldStudio/laravel-brevo-notifier/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/YieldStudio/laravel-brevo-notifier/tests.yml?branch=main&style=flat-square" alt="Build Status"></a>
+<a href="https://github.com/YieldStudio/laravel-brevo-notifier/releases"><img src="https://img.shields.io/github/release/YieldStudio/laravel-brevo-notifier?style=flat-square" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/YieldStudio/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/dt/YieldStudio/laravel-brevo-notifier?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/YieldStudio/laravel-brevo-notifier"><img src="https://img.shields.io/packagist/l/YieldStudio/laravel-brevo-notifier" alt="License"></a>
 </p>
 
 Easily send Brevo transactional email and sms with Laravel.
@@ -104,9 +104,9 @@ To run the tests, just run `composer install` and `composer test`.
 
 ## Contact us
 
-[<img src="https://github.com/Zenorta/.github/blob/main/assets/banner.png" width="419px" />](https://www.Zenorta.fr/contact)
+[<img src="https://github.com/YieldStudio/.github/blob/main/assets/banner.png" width="419px" />](https://www.YieldStudio.fr/contact)
 
-Our team at Yield Studio is ready to welcome you and make every interaction an exceptional experience. You can [contact us](https://www.Zenorta.fr/contact).
+Our team at Yield Studio is ready to welcome you and make every interaction an exceptional experience. You can [contact us](https://www.YieldStudio.fr/contact).
 
 ## Changelog
 
@@ -114,11 +114,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://raw.githubusercontent.com/Zenorta/.github/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://raw.githubusercontent.com/YieldStudio/.github/main/CONTRIBUTING.md) for details.
 
 ### Security
 
-If you've found a bug regarding security please mail [contact@Zenorta.fr](mailto:contact@Zenorta.fr) instead of using the issue tracker.
+If you've found a bug regarding security please mail [contact@YieldStudio.fr](mailto:contact@YieldStudio.fr) instead of using the issue tracker.
 
 ## Credits
 
